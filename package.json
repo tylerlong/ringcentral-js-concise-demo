@@ -1,0 +1,20 @@
+{
+  "name": "ringcentral-js-concise-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node -r babel-register -r babel-polyfill index.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ringcentral-js-concise": "^0.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint-plugin-html": "^4.0.5",
+    "standard": "^11.0.1"
+  }
+}
